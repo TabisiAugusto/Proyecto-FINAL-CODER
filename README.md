@@ -1,29 +1,43 @@
-# **Mercado de casas para alquiler en USA**
-## Contexto comercial y objetivo comercial
-El alquiler de casas es un mecanismo moderno para lograr obtener un alojamiento del tipo temporal. Ante la creciente imposibilidad de aspirar hacia la obtención de una casa propia, el mercado de alquileres se consolidó como una de las soluciones más rápidas para resolver este problema y por lo cual, con el crecimiento poblacional vemos que es necesario generar cada vez más información para las personas que están entrando en esa etapa de su vida, en la cual aspiran hacia la independencia de su hogar, en criollo, "Abandonar el nido".A su vez cabe recalcar que cada vez mas se esta generando movimiento entre diferentes locaciones para llevar a cabo trabajos tanto presencial como con la modalidad homeoffice la cual a partir de la pandemia de Covid-19 se vio creciencido de manera exponencial. También la creación de esta información es factible de ser utilizada para promocionar su alquiler o alquileres, a las personas que dispongan de la posibilidad de alquilar departamentos, casas, etc. El presente dataset fue seleccionado en base a las posibilidades de análisis que brinda. Es interesante saber cómo se conforma el mercado de alquileres de casas en un país tan extenso como USA, donde podemos ver cómo interactúan diferentes variables en diferentes contextos. Las variables interesantes a analizar son varias en el presente dataset. A la hora de evaluar posibles personas que alquilen en el mercado de casas es importante dar información del precio, el tipo de vivienda, así como la región, el tamaño de la casa, los dormitorios, baños, acceso para discapacitados, que se está ofreciendo. Pero también es importante dar detalles sobre las posibilidades tales como poder tener gatos, perros, la cercanía a ciertos servicios para las personas, etc. Esta información es importante para los que alquilan las casas que están a la espera de maximizar sus ganancias así como empresas que generan información para luego vendersela a diferentes personas.
+# US Real Estate Price Predictor 🏘️
 
-### Objetivo del algoritmo a realizar
-Poder predecir el precio de una casa en base a las caracteristicas que presenta para ser utilizado por las personas que tienen la posibilidad de poner inmuebles para alquilar y asi generar reditos economicos. Y tambien para aquellas personas que estan buscando un alquiler y poder predecir un precio de lo que le saldria en base a las caracteristicas buscadas.
+🌍 *[Read in English](#-english-version) | [Leer en Español](#-versión-en-español)*
 
+---
 
-### Información sobre repositorio
-En el presente repositorio se encuentra la secuencia de entregas realizadas, como de desafios, para la obtencion del certificado en la plataforma de CODERHOUSE.
-La formacion de la entrega final se basa en dos entregas iniciales ("Primera entrega" y "Segunda entrega"), para realizar una final ("Entrega Final") que engloba todo el proyecto realizado.
+## 🇬🇧 English Version
 
-A su vez, el orden de los desafios es el siguiente: 
-1) Visualizaciones_Tabisi 
-2) ProyectoDS_Parte1_Tabisi
-3)  ProyectoDS_Parte2_Tabisi
-4) ProyectoDS_ParteIII_Tabisi
-5) Desafio_APIS_AugustoTabisi
-6) Data_WranglingTabisi,
-7) Desafio_AlgoritmoML_MVP_AugustoTabisi
-8) Desafio_EvaluacionML_AugustoTabisi
-9) Desafío_FeatureSelection_AugustoTabisi
-10) Desafio_CrossValidation_Augusto
+A Machine Learning project designed to predict rental housing prices across the US market based on property characteristics, accessibility, and location data. 
 
-Tambien agrego el link de Google Colab que fue el entorno utilizado para la realizacion de los distintos desafios y entregas, para poder visualizar de manera correcta la entrega final.
-Ya que en GitHub no se puede ver por ser un archivo demasiado grande: https://colab.research.google.com/drive/1xtysD3Rtou8yrC_mLuaKX3ycMV7X8HAp?usp=sharing 
+### 📊 Business Context & Objective
+The rental market is experiencing exponential growth, driven by remote work mobility and changing homeownership dynamics. For real estate investors and property managers, accurately pricing a rental unit is critical to maximizing ROI and minimizing vacancy periods. 
 
-Por último, dejo el link para dropbox donde se encuentra la presentacion del PDF que contiene un primer analisis sobre el dataset, con las respuestas a las primeras interrogantes planteadas: 
-https://www.dropbox.com/s/w0szd3wmjhbot2z/60580-32795-obtenci%C3%B3n-de-insights-a-partir-de-visualizaciones-tabisiaugusto-mercado-de-casas-para-alquiler-en-usa(1).pdf?e=1&dl=0
+This project builds a predictive algorithm that evaluates features such as property type, square footage, pet policies, ADA accessibility, and regional economics to estimate the optimal market rental price. This tool can be utilized by real estate platforms, landlords for yield optimization, and tenants for cost forecasting.
+
+### 🛠️ Tech Stack & Methodology
+* **Data Gathering & Wrangling:** API integration, Data Cleaning (Pandas, NumPy).
+* **Exploratory Data Analysis (EDA):** Feature analysis and market trend visualization.
+* **Predictive Modeling:** Machine Learning algorithms implemented with Scikit-Learn.
+
+### 🚀 Project Deliverables
+* **[Interactive Execution Environment (Google Colab)](https://colab.research.google.com/drive/1xtysD3Rtou8yrC_mLuaKX3ycMV7X8HAp?usp=sharing):** Full pipeline containing data ingestion, EDA, and model training.
+* **[Executive Summary & Insights (PDF)](https://www.dropbox.com/s/w0szd3wmjhbot2z/60580-32795-obtenci%C3%B3n-de-insights-a-partir-de-visualizaciones-tabisiaugusto-mercado-de-casas-para-alquiler-en-usa(1).pdf?e=1&dl=0):** Initial market analysis, statistical distributions, and core business findings.
+
+---
+
+## 🇪🇸 Versión en Español
+
+Un proyecto de *Machine Learning* diseñado para predecir los precios de alquiler de viviendas en el mercado de EE. UU., basándose en las características de la propiedad, la accesibilidad y los datos de ubicación.
+
+### 📊 Contexto y Objetivo de Negocio
+El mercado de alquileres está experimentando un crecimiento exponencial, impulsado por la movilidad del trabajo remoto y las cambiantes dinámicas de vivienda. Para los inversores inmobiliarios y administradores de propiedades, fijar el precio exacto de una unidad de alquiler es fundamental para maximizar el ROI (Retorno de Inversión) y minimizar los períodos de vacancia.
+
+Este proyecto desarrolla un algoritmo predictivo que evalúa características como el tipo de propiedad, los metros cuadrados, las políticas sobre mascotas, la accesibilidad y la economía regional para estimar el precio de alquiler óptimo en el mercado. Esta herramienta puede ser utilizada por plataformas inmobiliarias, propietarios para la optimización de rendimientos, y por inquilinos para la proyección de costos.
+
+### 🛠️ Stack Tecnológico y Metodología
+* **Recopilación y Limpieza de Datos:** Integración de APIs, *Data Wrangling* (Pandas, NumPy).
+* **Análisis Exploratorio de Datos (EDA):** Análisis de variables y visualización de tendencias de mercado.
+* **Modelado Predictivo:** Algoritmos de Machine Learning implementados con Scikit-Learn.
+
+### 🚀 Entregables del Proyecto
+* **[Entorno de Ejecución Interactivo (Google Colab)](https://colab.research.google.com/drive/1xtysD3Rtou8yrC_mLuaKX3ycMV7X8HAp?usp=sharing):** *Pipeline* completo que contiene la ingesta de datos, EDA y el entrenamiento del modelo.
+* **[Resumen Ejecutivo e Insights (PDF)](https://www.dropbox.com/s/w0szd3wmjhbot2z/60580-32795-obtenci%C3%B3n-de-insights-a-partir-de-visualizaciones-tabisiaugusto-mercado-de-casas-para-alquiler-en-usa(1).pdf?e=1&dl=0):** Análisis de mercado inicial, distribuciones estadísticas y hallazgos clave de negocio.
